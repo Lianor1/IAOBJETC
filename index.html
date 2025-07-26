@@ -263,7 +263,7 @@
 
     function predecir() {
       if (modelo !== null) {
-        resample_single(canvas, 400, 400, otrocanvas);
+        resample_single(canvas, 100, 100, otrocanvas);
         // Hacer la predicción
         var ctx2 = otrocanvas.getContext("2d");
         var imgData = ctx2.getImageData(0, 0, 100, 100);
